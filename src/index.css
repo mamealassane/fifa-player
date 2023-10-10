@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* width: 100%; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  text-align: center;
+  background-image: 'https://i.pinimg.com/474x/34/36/a6/3436a66af90c5f0e36f1293b668ffae7.jpg';
+  background-size: cover;
+}
+
+
+@media (min-width: 768px) {
+  .App {
+    padding: 20px; 
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+  .App {
+    max-width: 1200px; /* Limite la largeur maximale du contenu */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+  }
+}
+.opp{
+  border-radius: 100px;
 }
